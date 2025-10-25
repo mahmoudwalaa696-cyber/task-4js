@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pro-styel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.total {
+
+    margin-top: 20px;
+}
+
+.total h1.list {
+    margin-left: 550px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.parts {
+    display: flex;
+    gap: 200px;
+    margin-left: 330px;
+    padding: 20px;
+}
+
+.Absentees {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(215, 140, 140, 0.875);
+}
+
+.Outstanding {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(151, 151, 230, 0.871);
+}
+
+.product-content {
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(211, 209, 209, 0.781);
+    width: 400px;
+    height: 750px;
+    transition: all 1s ease;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product-content:hover {
+    transform: translateY(-30px);
+}
+
+h1.name {
+    color: rgba(34, 79, 213, 0.915);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+hr{
+    height: 3px;
+    border: none;
+background-color: rgba(34, 79, 213, 0.915);
+}
+
+h1.one {
+    color: rgb(71, 71, 71);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 25px;
+    border-bottom:1px solid rgba(191, 191, 191, 0.355);
+}
+
+h1.result {
+    font-size: 25px;
+    color: red;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(34, 79, 213, 0.915);
+    color: white;
+}
+
+h1.classeification {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.classeification.blue {
+    background-color: rgb(161, 218, 253);
+}
+
+.classeification.gray {
+    background-color: rgb(186, 185, 185);
+}
+
+.classeification.green {
+    background-color: rgb(168, 246, 168);
+}
+
+.classeification.bisque {
+    background-color: bisque;
+}
+
+.classeification.yellow {
+    background-color: rgb(254, 254, 183);
+}
+
+.classeification.purple {
+    background-color: rgb(245, 161, 245);
+}
+
+.classeification.orange {
+    background-color: rgb(245, 206, 133);
+}
+
+.classeification.red {
+    background-color: rgb(255, 118, 118);
+}
