@@ -164,7 +164,7 @@ for (const student of students) {
   parent.innerHTML += `
     <div class="product">
    <div class="product-content" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-easing="ease-in-sine"  data-aos-duration="1500">
+     data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-easing="ease-in-sine"  data-aos-duration="1000">
         <h1 class="name">${student.name}</h1>
         <hr>
         <h1 class="one">Age:<span> ${student.age}</span></h1>
