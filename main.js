@@ -94,8 +94,8 @@ one.innerHTML += `
 <div class="total">
     <h1 class="list" data-aos="zoom-in">قائمة الطلاب 📚</h1>
   <div class="parts"> 
-  <h1 class="Absentees"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">الغائبين:${Number_Absentees}</h1>
-   <h1 class="Outstanding"data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >المتفوقين:${Number_Outstanding}</h1>
+  <h1 class="Absentees"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-duration="1500">الغائبين:${Number_Absentees}</h1>
+   <h1 class="Outstanding"data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-duration="1500">المتفوقين:${Number_Outstanding}</h1>
   </div>
     </div>`;
 
@@ -164,7 +164,7 @@ for (const student of students) {
   parent.innerHTML += `
     <div class="product">
    <div class="product-content" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-easing="ease-in-sine">
+     data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-easing="ease-in-sine"  data-aos-duration="1500">
         <h1 class="name">${student.name}</h1>
         <hr>
         <h1 class="one">Age:<span> ${student.age}</span></h1>
